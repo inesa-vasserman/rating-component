@@ -20,6 +20,10 @@ See `design/keyboard-usage.mp4` for the behaviour of your component when using t
 
 You only need two files: `index.jsx` and `main.jsx`. If you know how to break the UI down into components, feel free to have separate files. It is ok to start with just one file (big component) as `<App>`. This component should have all the behaviour of `design/design.png` rating component.
 
+## Package
+
+Make sure to use commands `pn dev` to run to development environment and compile your application using `rollup`.
+
 ## HTML
 
 The expected `html` that you can AND `must` use:
