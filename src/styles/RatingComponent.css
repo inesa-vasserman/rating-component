@@ -1,0 +1,38 @@
+.rating-component {
+  margin-top: 3rem;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+button {
+  font-size: 36px;
+  border-radius: 100%;
+  padding: 1rem 1.7rem;
+  background-color: #242f37;
+  color: white;
+  border: none;
+}
+
+.button-group {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
+
+  button:hover {
+    background-color: #fb7615;
+  }
+}
+
+.btn-on-hover {
+  background-color: #fb7615;
+}
+
+.selected {
+  border: 1px solid rgb(216 211 50);
+}
