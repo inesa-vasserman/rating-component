@@ -16,12 +16,22 @@ export default function RatingButton({ setSubmited, ratingRes }) {
 
   return (
     <div className="rating-button">
+
       {triedSubmit && !Object.values(ratingRes).includes(true) && (
-        <p className="error-tooltip">Please, select one of these options!</p>
+        <p id="error-msg" className="error-tooltip" role="alert">
+          Please, select one of these options!
+        </p>
       )}
-      <button className="button-to-submit" type="button" onClick={handleClick}>
-        Click me
+
+      <button
+        className="button-to-submit"
+        type="button"
+        onClick={handleClick}
+        aria-describedby={triedSubmit ? 'error-msg' : undefined}
+      >
+        Submit Feedback
       </button>
+
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import './styles/HeadingComponent.css';
 export default function HeadingComponent() {
   return (
-    <div>
+    <div aria-live="polite">
       <h1 className="visually-hidden">Rating Page</h1>
       <h2>How did we do?</h2>
       <p>

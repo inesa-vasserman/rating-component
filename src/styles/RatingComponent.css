@@ -20,6 +20,7 @@ button {
   display: flex;
   gap: 1.5rem;
   cursor: pointer;
+  list-style: none;
   transition:
     background-color 0.2s,
     transform 0.2s;
